@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import DefaultLayout from "./layout/DefaultLayout"
+
+import HomePage from "./pages/HomePage"
+import AboutUs from "./pages/AboutUs"
+import Products from "./pages/Products"
+import SingleProduct from './components/products/SingleProduct'
+import SingleProductList from './components/products/SingleProductList'
+
+
+function App() {
+
+
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<DefaultLayout />}>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/aboutus" element={<AboutUs />}></Route>
+            <Route path="/products" element={<Products />}></Route>
+            <Route path="/products/:id" element={<SingleProduct />} ></Route>
+
+          </Route>
+        </Routes>
+      </BrowserRouter >
+    </>
+  )
+}
+
+export default App
