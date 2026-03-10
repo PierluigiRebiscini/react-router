@@ -31,4 +31,15 @@ a {
 img {
   width: 20%;
 
+
+}
+
+.img-e404 {
+  text-align: center;
+}
+
+.img-e404>img {
+  width: auto;
+  height: auto;
+
 }
