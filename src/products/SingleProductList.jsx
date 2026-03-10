@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect } from "react"
 import { Link, NavLink, useParams } from "react-router-dom"
 import { useState } from "react";
-import Products from "../../pages/Products";
+import Products from "../pages/Products";
 
 
 

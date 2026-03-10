@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import SingleProductList from "../components/products/SingleProductList"
+import SingleProductList from "../products/SingleProductList"
 
 export default function Products() {
 

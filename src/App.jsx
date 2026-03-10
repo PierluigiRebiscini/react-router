@@ -6,8 +6,8 @@ import DefaultLayout from "./layout/DefaultLayout"
 import HomePage from "./pages/HomePage"
 import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
-import SingleProduct from './components/products/SingleProduct'
-import SingleProductList from './components/products/SingleProductList'
+import SingleProduct from './products/SingleProduct'
+import SingleProductList from './products/SingleProductList'
 
 
 function App() {
