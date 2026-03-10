@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
 import SingleProduct from './products/SingleProduct'
 import SingleProductList from './products/SingleProductList'
+import NotFound from './pages/NotFound'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />}></Route>
             <Route path="/products" element={<Products />}></Route>
             <Route path="/products/:id" element={<SingleProduct />} ></Route>
+            <Route path="*" element={<NotFound />}></Route>
 
           </Route>
         </Routes>
